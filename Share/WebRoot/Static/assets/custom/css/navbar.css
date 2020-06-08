@@ -1,0 +1,60 @@
+
+#navigator {
+    background-color: #39896b;
+    opacity: 0.95;
+}
+
+#bs-example-navbar-collapse-1 .force-white {
+    color: #ffffff;
+}
+
+#bs-example-navbar-collapse-1 .force-white:hover {
+    background-color: #39896b;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #39896b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+}
+
+#nav-brand {
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: #39896b;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 35px;
+}
+
+#nav-brand:hover {
+    text-shadow: 0px 0px 4px #ffffff;
+}
+
+#img-brand {
+    width: 40px;
+    display: block;
+    float: left;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+.img-thumbnail {
+    padding: 2px;
+    width: 36px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+.search-btn-pointer {
+    cursor: pointer;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #39896b;
+}
+
+.dropdown-menu{
+    overflow: hidden;
+}

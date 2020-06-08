@@ -1,0 +1,92 @@
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-family: Microsoft YaHei, Tahoma, Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding-top: 40px;
+    background-color: #f8f8f8;
+    position:absolute;
+}
+
+a {
+    color: #7a7a7a;
+}
+
+a:hover {
+    color: rgba(0, 17, 13, 0.57);
+    text-shadow: 0 0 5px rgba(0, 47, 63, 0.07);
+}
+
+a:focus {
+    color: #656565;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* 控制 container 宽度 */
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
+        padding-bottom:5px;
+    }
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+}
+
+.blog-main {
+    display: inline-block;
+    width: 70%;
+}
+
+.icon .glyphicon {
+    /* 通过设置 font-size 来改变图标大小 */
+    width: 1em;
+    height: 1em;
+    /* 图标和文字相邻时，垂直对齐 */
+    vertical-align: -0.15em;
+    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    fill: currentColor;
+    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+       normalize.css 中也包含这行 */
+    overflow: hidden;
+}
+
+/* 性别图标颜色 */
+
+.icon-iconfontiocnnan {
+    color: deepskyblue;
+}
+
+.icon-nv {
+    color: hotpink;
+}
+
+/* 页面最小高度 */
+.blog-main, .follow_page {
+    min-height: 600px;
+}
+
+/* 无数据时的样式 */
+.no_data {
+    color: #9c9c9c;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f5;
+    padding: 20px 0 10px 0;
+    margin: 0 20px 20px 20px;
+}
+
+.page_title {
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(21, 35, 43, 0.26);
+    margin-bottom: 5px;
+}
+
+#titie_username{
+    color: rgba(39, 94, 143, 0.44);
+}

@@ -1,0 +1,16 @@
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 10px;
+    color: #878787;
+    text-align: center;
+    background-color: #ebebeb;
+    border-top: 1px solid #c9c9c9;
+    botton: 0px;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}

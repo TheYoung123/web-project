@@ -1,0 +1,86 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-logo {
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    background: url(./../../images/logo.png) no-repeat;
+    background-size: cover;
+}
+
+.form-signin .form-signin-heading {
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: #39896b;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 40px;
+    float: left;
+}
+
+.form-signin .form-signin-subtitle {
+    color: rgba(18, 18, 18, 0.51);
+    text-align: center;
+    margin-top: 33px;
+    float: right;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 5;
+}
+
+.form-signin .checkbox-signup{
+    position: absolute;
+    right: 10px;
+}
+
+.form-signin input[sign="username"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[sign="captcha"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin span[type="captchaholder"] {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*错误提示信息*/
+.error_msg{
+	color:red;
+	padding:5px 0px;
+}
