@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.Share.entity.Admin" table="admin">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="java.lang.String">
+            <column name="username" length="45" not-null="true" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="password" length="45" not-null="true" />
+        </property>
+        <property name="imgPath" type="java.lang.String">
+            <column name="img_path" length="100" />
+        </property>
+        <set name="badwords" inverse="true">
+            <key>
+                <column name="admin_id" not-null="true" />
+            </key>
+            <one-to-many class="com.Share.entity.Badword" />
+        </set>
+    </class>
+</hibernate-mapping>
