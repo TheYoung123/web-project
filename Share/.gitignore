@@ -1,0 +1,6 @@
+WebRoot/WEB-INF/classes
+WebRoot/upload
+WebRoot/Static/other
+.idea
+blog.iml
+resource/db.properties
